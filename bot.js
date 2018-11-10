@@ -458,4 +458,4 @@ if (message.content.startsWith(prefix + 'setstream')) {
     message.channel.sendMessage(`Streaming: **${argresult}`)
 }
 	});
-client.login("NTEwNTU4NDUwMTQ1ODIwNzE5.DsiQ_Q.Zzsdk84PDR0E0j5-BcZek40WRj0");
+client.login(process.env.BOT_TOKEN);
